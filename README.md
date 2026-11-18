@@ -3,7 +3,7 @@
 
 <img src="https://img.shields.io/badge/PROJECT%20X-ECOSYSTEM-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="Project X Ecosystem"/>
 
-# ⚡ PROJECT X
+# ⚡ PROJECT-X
 ### A COLLABORATIVE HARDWARE & AI ECOSYSTEM
 
 *Building the Future, One Circuit at a Time.*
