@@ -1,15 +1,16 @@
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/PROJECT%20X-ECOSYSTEM-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="Project X Ecosystem"/>
+<img src="https://img.shields.io/badge/PROJECT%20X-ECOSYSTEM-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="Project X"/>
 
 # ⚡ PROJECT-X
 ### A COLLABORATIVE HARDWARE & AI ECOSYSTEM
 
 *Building the Future, One Circuit at a Time.*
 
-[![Live Portal](https://img.shields.io/badge/🌐_LIVE-EXPLORE%20PORTAL-8B5CF6?style=for-the-badge)](https://luciferofx.github.io/projectxweb/)
-[![Source Code](https://img.shields.io/badge/📂_SOURCE-GITHUB-181717?style=for-the-badge&logo=github)](https://github.com/luciferofx/projectxweb)
+[![Live Portal](https://img.shields.io/badge/LIVE-EXPLORE%20PORTAL-8B5CF6?style=for-the-badge)](https://luciferofx.github.io/projectx/)
+
+[![GitHub](https://img.shields.io/badge/SOURCE-GITHUB-181717?style=for-the-badge&logo=github)](https://github.com/luciferofx/projectx)
 
 **Designed & Developed by Raja Sharma and Team**
 
@@ -21,66 +22,54 @@
 
 **Project X** is an open-source hardware and software ecosystem bringing together robotics, embedded systems, Internet of Things (IoT), and artificial intelligence.
 
-Designed and developed by **Raja Sharma and the team**, this repository serves as a centralized platform for multiple independent engineering projects.
-
-Each module combines hardware implementation, firmware development, interactive web interfaces, and technical documentation.
+This repository serves as a centralized platform for multiple independent engineering projects.
 
 ### ◈ What Makes Project X Different?
 
 - **Hardware Engineering:** Arduino and ESP8266-based embedded systems.
-- **Robotics:** Wireless-controlled robotic vehicles and automated mechanisms.
+- **Robotics:** Wireless-controlled robotic vehicles.
 - **Artificial Intelligence:** Computer vision and facial recognition.
-- **IoT Development:** Wi-Fi-connected devices and web-based monitoring.
-- **Web Engineering:** Interactive dashboards and browser-based interfaces.
-- **Modular Architecture:** Five independent projects maintained in one ecosystem.
+- **IoT Development:** Wi-Fi-connected devices.
+- **Web Engineering:** Interactive dashboards.
+- **Modular Architecture:** Five independent projects.
 
 ---
 
 ## 🗂️ REPOSITORY STRUCTURE
 
 ```text
-projectxweb/
+projectx/
 │
-├── index.html                  # Master Landing Page
-├── styles.css                  # Global Cyberpunk Styling
-├── LICENSE                     # MIT License
-├── README.md                   # Project Documentation
+├── codingfiles/
+├── images/
+├── LICENSE
+├── README.md
 │
 └── projects/
-    │
-    ├── projectx-robot/          # 01 - Autonomous AI Robot
-    │
-    ├── projectx-remotecar/      # 02 - Bluetooth 4WD Car
-    │
-    ├── projectx-army-gate/     # 03 - RFID Automated Gate
-    │
-    ├── projectx-baby-cradle/   # 04 - IoT Automatic Baby Cradle
-    │
-    └── projectx-id-scanner/    # 05 - I2C Diagnostic Terminal
+    ├── projectx-robot/
+    ├── projectx-remotecar/
+    ├── projectx-army-gate/
+    ├── projectx-baby-cradle/
+    └── projectx-id-scanner/
 ```
 
 ---
 
 ## 🚀 THE ECOSYSTEM MODULES
 
-Five independent engineering projects form the foundation of the Project X ecosystem.
-
 ### 01 · 🤖 AUTONOMOUS AI ROBOT
-
-<sub>FLAGSHIP PROJECT · ROBOTICS · ARTIFICIAL INTELLIGENCE</sub>
 
 A multi-module robotic platform combining wireless mobility, computer vision, and embedded display technology.
 
-| Specification | Details |
-|---|---|
-| Controller | ESP8266 NodeMCU |
-| AI Engine | Python + OpenCV |
-| Motor Driver | L298N |
-| Display | I2C LCD |
-| Interface | Wi-Fi Web Dashboard |
+**Specifications:**
+- Controller: ESP8266 NodeMCU
+- AI Engine: Python + OpenCV
+- Motor Driver: L298N
+- Display: I2C LCD
+- Interface: Wi-Fi Web Dashboard
 
 **Key Features**
-- Wi-Fi-based robotic movement control.
+- Wi-Fi-based movement control.
 - AI-based facial recognition and attendance.
 - Real-time LCD telemetry.
 - Four-wheel-drive chassis.
@@ -93,16 +82,13 @@ A multi-module robotic platform combining wireless mobility, computer vision, an
 
 ### 02 · 🚗 REMOTE CAR — 4WD ROVER
 
-<sub>ROBOTICS · WIRELESS CONTROL · EMBEDDED SYSTEMS</sub>
-
 A four-wheel-drive robotic vehicle featuring Bluetooth communication and differential steering.
 
-| Specification | Details |
-|---|---|
-| Controller | Arduino Nano |
-| Motor Driver | Dual L298N |
-| Communication | HC-05 Bluetooth |
-| Control Interface | SriTu Hobby App |
+**Specifications:**
+- Controller: Arduino Nano
+- Motor Driver: Dual L298N
+- Communication: HC-05 Bluetooth
+- Control Interface: SriTu Hobby App
 
 **Key Features**
 - Bluetooth-based movement control.
@@ -118,16 +104,13 @@ A four-wheel-drive robotic vehicle featuring Bluetooth communication and differe
 
 ### 03 · 🚧 ARMY GATE — RFID AUTOMATION
 
-<sub>SECURITY AUTOMATION · RFID · EMBEDDED SYSTEMS</sub>
-
 An automated boom barrier prototype designed around RFID-based authentication and servo-controlled access.
 
-| Specification | Details |
-|---|---|
-| Controller | Arduino Mega 2560 |
-| RFID Reader | MFRC522 |
-| Actuator | Servo Motor |
-| Feedback | LED + Buzzer |
+**Specifications:**
+- Controller: Arduino Mega 2560
+- RFID Reader: MFRC522
+- Actuator: Servo Motor
+- Feedback: LED + Buzzer
 
 **Key Features**
 - RFID-based identification.
@@ -143,16 +126,13 @@ An automated boom barrier prototype designed around RFID-based authentication an
 
 ### 04 · 🍼 BABY CRADLE — IoT SWING CONTROLLER
 
-<sub>INTERNET OF THINGS · AUTOMATION · ESP8266</sub>
-
 An IoT-based automatic cradle swing prototype using an ESP8266 controller and browser-based interface.
 
-| Specification | Details |
-|---|---|
-| Controller | ESP8266 NodeMCU |
-| Communication | Wi-Fi |
-| Motor Control | PWM |
-| Interface | Web Dashboard |
+**Specifications:**
+- Controller: ESP8266 NodeMCU
+- Communication: Wi-Fi
+- Motor Control: PWM
+- Interface: Web Dashboard
 
 **Key Features**
 - Local Wi-Fi access point.
@@ -160,7 +140,7 @@ An IoT-based automatic cradle swing prototype using an ESP8266 controller and br
 - Browser-based control interface.
 - Animated web dashboard.
 
-**Technology:** `C++` `ESP8266 WiFi` `HTML` `CSS` `JavaScript`
+**Technology:** `C++` `ESP8266` `HTML` `CSS` `JavaScript`
 
 [📂 Explore Baby Cradle](projects/projectx-baby-cradle/)
 
@@ -168,19 +148,16 @@ An IoT-based automatic cradle swing prototype using an ESP8266 controller and br
 
 ### 05 · 🪪 ID SCANNER — I2C DIAGNOSTIC TERMINAL
 
-<sub>EMBEDDED DEVELOPMENT · WEBSERIAL · AVR TOOLS</sub>
-
 A browser-based diagnostic interface designed for I2C device inspection and AVR firmware operations.
 
-| Specification | Details |
-|---|---|
-| Compatible Boards | Arduino Uno / Nano |
-| Communication | WebSerial API |
-| Interface | Browser-Based Terminal |
-| Firmware Format | Intel HEX |
+**Specifications:**
+- Compatible Boards: Arduino Uno / Nano
+- Communication: WebSerial API
+- Interface: Browser-Based Terminal
+- Firmware Format: Intel HEX
 
 **Key Features**
-- I2C address scanning and visualization.
+- I2C address scanning.
 - 128-cell address map.
 - WebSerial communication.
 - STK500v1 HEX flasher.
@@ -193,80 +170,62 @@ A browser-based diagnostic interface designed for I2C device inspection and AVR 
 
 ## 🛠️ GLOBAL TECHNOLOGY STACK
 
-<div align="center">
+### Hardware & Embedded Systems
+- Arduino
+- ESP8266
+- C++
 
-### HARDWARE & EMBEDDED SYSTEMS
+### AI & Computer Vision
+- Python
+- OpenCV
 
-<img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white"/>
-<img src="https://img.shields.io/badge/ESP8266-E7352C?style=for-the-badge&logo=espressif&logoColor=white"/>
-<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
-
-### AI & COMPUTER VISION
-
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
-
-### WEB DEVELOPMENT
-
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-
-</div>
+### Web Development
+- HTML5
+- CSS3
+- JavaScript
 
 ---
 
 ## ⚙️ HOW TO USE
 
-Project X is structured as a monorepo, meaning each project can be explored and operated independently.
-
-### 01 — Clone the Repository
+### 01 — Clone Repository
 
 ```bash
-git clone https://github.com/luciferofx/projectxweb.git
+git clone https://github.com/luciferofx/projectx.git
 ```
 
-### 02 — Enter the Project Directory
+### 02 — Enter Project Directory
 
 ```bash
-cd projectxweb
+cd projectx
 ```
 
-### 03 — Explore the Master Portal
+### 03 — Explore Master Portal
 
-Open the root `index.html` file in your browser or visit the hosted portal:
+Open `index.html` in your browser or visit:
 
-**https://luciferofx.github.io/projectxweb/**
+https://luciferofx.github.io/projectx/
 
 ### 04 — Explore Individual Modules
 
-Navigate to the relevant project directory:
+Navigate to:
 
 ```text
 projects/<project-name>/
 ```
 
-Each project contains its own documentation, hardware references, and firmware where applicable.
-
-Refer to the individual project's `README.md` for installation and setup instructions.
+Refer to each project's README.md for installation and setup instructions.
 
 ---
 
-## 👥 THE TEAM
-
-<div align="center">
-
-### PROJECT X — A COLLABORATIVE ENGINEERING ECOSYSTEM
-
-</div>
+## 👥 THE TEAM & COLLABORATORS
 
 | Role | Name |
 |---|---|
 | Lead Developer & Architect | Raja Sharma |
+| Web Developer & UI/UX Collaborator | Ayush pal |
 | Core Team | Purushaan |
-| Support & Helpers |  Abhay, Varsha, Shriyansh, Hamdan |
-
-*Built through collaboration, experimentation, and engineering.*
+| Support & Helpers | Abhay, Varsha, Shriyansh, Hamdan |
 
 ---
 
@@ -276,20 +235,18 @@ This project is licensed under the **MIT License**.
 
 You are free to use, modify, and distribute this software according to the terms of the license.
 
-See the [`LICENSE`](LICENSE) file for details.
+See the [LICENSE](LICENSE) file for details.
 
 ---
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/PROJECT%20X-ENGINEERING%20THE%20FUTURE-8B5CF6?style=for-the-badge"/>
-
 # ⚡ EXPERIMENT. ENGINEER. INNOVATE.
 
 *Building the Future, One Circuit at a Time.*
 
-**© 2024 Raja Sharma · Project X Ecosystem**
+**© 2026 Raja Sharma & Collaborators · Project X Ecosystem**
 
-[GitHub Repository](https://github.com/luciferofx/projectxweb) · [Live Portal](https://luciferofx.github.io/projectxweb/)
+[GitHub Repository](https://github.com/luciferofx/projectx) · [Live Portal](https://luciferofx.github.io/projectx/)
 
 </div>
